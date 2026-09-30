@@ -1,4 +1,4 @@
-# ASI — onboarding
+# ASI onboarding
 
 To repozytorium służy do pracy podczas **dwojga pierwszych zajęć** z przedmiotu *Architektury rozwiązań i wdrożeń*.
 
