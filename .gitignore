@@ -21,3 +21,4 @@ venv/
 
 #other
 check_env\ copy.py
+notebooks/01_onboarding_eda_teacher.ipynb
