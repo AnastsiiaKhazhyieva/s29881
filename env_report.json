@@ -1,68 +1,68 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-05T19:03:17.432051+00:00",
-  "status": "error",
+  "generated_at_utc": "2026-10-05T19:36:14.356111+00:00",
+  "status": "ok",
   "path": "codespaces",
   "python": {
-    "version": "3.14.7",
+    "version": "3.11.16",
     "expected": "3.11.x",
-    "ok": false
+    "ok": true
   },
   "environment": {
-    "name": null,
+    "name": "asi-ml",
     "expected": "asi-ml",
-    "ok": false
+    "ok": true
   },
   "packages": {
     "numpy": {
-      "version": null,
+      "version": "2.4.6",
       "expected": "2.4.6",
-      "import_ok": false,
-      "version_ok": false
+      "import_ok": true,
+      "version_ok": true
     },
     "pandas": {
-      "version": null,
+      "version": "3.0.6",
       "expected": "3.0.6",
-      "import_ok": false,
-      "version_ok": false
+      "import_ok": true,
+      "version_ok": true
     },
     "matplotlib": {
-      "version": null,
+      "version": "3.11.2",
       "expected": null,
-      "import_ok": false,
+      "import_ok": true,
       "version_ok": true
     },
     "scikit-learn": {
-      "version": null,
+      "version": "1.9.1",
       "expected": "1.9.1",
-      "import_ok": false,
-      "version_ok": false
+      "import_ok": true,
+      "version_ok": true
     },
     "ipykernel": {
-      "version": null,
+      "version": "7.3.0",
       "expected": "7.3.0",
-      "import_ok": false,
-      "version_ok": false
+      "import_ok": true,
+      "version_ok": true
     }
   },
   "tools": {
     "pytest": {
-      "version": null,
+      "version": "9.1.1",
       "expected": null,
       "version_ok": true
     },
     "pre-commit": {
-      "version": null,
+      "version": "4.6.2",
       "expected": "4.6.2",
-      "version_ok": false
+      "version_ok": true
     },
     "ruff": {
-      "version": null,
+      "version": "0.16.9",
       "expected": "0.16.9",
-      "version_ok": false
+      "version_ok": true
     },
     "nbstripout": {
-      "version": null,
+      "version": "0.9.1",
       "expected": null,
       "version_ok": true
     }
@@ -73,7 +73,7 @@
     "pre_commit_hook_installed": true
   },
   "jupyter": {
-    "asi_ml_kernel_registered": false
+    "asi_ml_kernel_registered": true
   },
   "system": {
     "os": "Linux",
@@ -84,25 +84,7 @@
       "running": false
     }
   },
-  "failures": [
-    "Python ma wersję 3.14.7, a oczekiwana jest linia 3.11.x.",
-    "Aktywne środowisko to brak, a oczekiwane jest asi-ml.",
-    "Nie działa import pakietu numpy: ModuleNotFoundError: No module named 'numpy'.",
-    "Pakiet numpy nie jest zainstalowany.",
-    "Nie działa import pakietu pandas: ModuleNotFoundError: No module named 'pandas'.",
-    "Pakiet pandas nie jest zainstalowany.",
-    "Nie działa import pakietu matplotlib: ModuleNotFoundError: No module named 'matplotlib'.",
-    "Pakiet matplotlib nie jest zainstalowany.",
-    "Nie działa import pakietu scikit-learn: ModuleNotFoundError: No module named 'sklearn'.",
-    "Pakiet scikit-learn nie jest zainstalowany.",
-    "Nie działa import pakietu ipykernel: ModuleNotFoundError: No module named 'ipykernel'.",
-    "Pakiet ipykernel nie jest zainstalowany.",
-    "Narzędzie pytest nie jest zainstalowane.",
-    "Narzędzie pre-commit nie jest zainstalowane.",
-    "Narzędzie ruff nie jest zainstalowane.",
-    "Narzędzie nbstripout nie jest zainstalowane.",
-    "Kernel Jupyter \"asi-ml\" nie jest zarejestrowany. Uruchom: python -m ipykernel install --user --name asi-ml --display-name \"Python (asi-ml)\""
-  ],
+  "failures": [],
   "warnings": [
     "Docker nie jest zainstalowany. Nie blokuje to pierwszych zajęć."
   ]
